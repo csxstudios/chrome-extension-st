@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Stock Twits Full Screen",
+  "version": "0.1.0",
+  "description": "Stock Twits full screen portfolio view for TVs",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["jquery-3.5.1.min.js","content.js"],
+    "matches": ["https://stocktwits.com/*"]
+  }]
+
+}

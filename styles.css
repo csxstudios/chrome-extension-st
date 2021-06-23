@@ -1,0 +1,93 @@
+#global-header,
+#app.homepage>div>div>div:nth-child(2),
+#app.homepage h6,
+#app.homepage svg {
+  display: none;
+}
+
+#app.homepage>div>div>div:nth-child(3)>div:first-child,
+#app.homepage>div>div>div:nth-child(3),
+#app.homepage>div>div>div:nth-child(3)>div:first-child>div,
+#app.homepage>div>div>div:nth-child(3)>div:first-child>div>div>div>div:nth-child(2) {
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+#app.homepage>div>div>div:nth-child(3)>div,
+#app.homepage>div>div>div:nth-child(3)>div:first-child>div:last-child,
+.sticky-outer-wrapper {
+  display: none;
+}
+
+#app.homepage div[draggable="true"] {
+  float: left;
+  border: 1px solid #eee;
+  height: 17vh;
+  padding: 1rem;
+  width: 20%;
+}
+
+#app.homepage h5 {
+  font-size: 2rem !important;
+  text-overflow: initial !important;
+  z-index: 1;
+  position: absolute;
+  overflow: visible;
+}
+
+#app.homepage div[draggable="true"]>a>div {
+  margin: 0;
+}
+
+#app.homepage div[draggable="true"] span {
+  font-size: 1rem;
+}
+
+#app.symbol>div>div>div:nth-child(3)>div,
+#app.symbol>div>div>div:nth-child(3)>div:first-child>div,
+#app.symbol>div>div>div:nth-child(3)>div:nth-child(2)>div>div:last-child,
+#app.symbol>div>div>div:nth-child(3)>div:nth-child(2)>div>div:first-child>div:last-child,
+#app.symbol>div>div>div:nth-child(3)>div:nth-child(2)>div>div:first-child section,
+#app.symbol>div>div>div:nth-child(3)>div:nth-child(2)>div>div:first-child>div>div>div:first-child>div:last-child {
+  display: none;
+}
+
+#app.symbol>div>div>div:nth-child(3)>div:nth-child(2),
+#app.symbol>div>div>div:nth-child(3)>div:first-child>div:first-child {
+  display: block;
+}
+
+#app.symbol>div>div>div:nth-child(3)>div:nth-child(2)>div>div:first-child {
+  max-width: 100%;
+}
+
+#app.symbol>div>div>div:nth-child(3)>div:nth-child(2)>div>div:first-child>div>div>div:first-child>div:first-child>div:last-child>div:first-child>span:last-child {
+  font-size: 35px;
+  float: right;
+  text-align: right;
+}
+
+#app.symbol>div>div>div:nth-child(3)>div:nth-child(2)>div>div:first-child>div>div>div:first-child>div:first-child>div:last-child>div:first-child {
+  width: 100%;
+  display: block;
+}
+
+#app.symbol>div>div>div:nth-child(3)>div:nth-child(2)>div>div:first-child>div>div>div:first-child>div:first-child>div:last-child>div:first-child>span:first-child {
+  width: 50%;
+}
+
+#app.symbol>div>div>div:nth-child(3)>div:nth-child(2)>div>div:first-child>div>div>div>div {
+  width: 100%;
+}
+
+.d-block {
+  display: block !important;
+}
+
+#app .chartContainer {
+  height: 40vh !important;
+}
